@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <script src="../JSP/login.js"></script>
+</head>
+
+<body>
+    <div class="loginForm">
+        <form>
+            <div class=" form-group">
+                <input type="text" class="form-control" placeholder="User Name" id="uname"> <br>
+                <input type="text" class="form-control" placeholder="Password" id="pwd"><br>
+               <div style="left:50%;padding-left: 40%;"> <input type="button" value="Login" class="btn" id="login" onclick="authenticateUser()"></div>
+               <label id="error"></label>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

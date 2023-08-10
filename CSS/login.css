@@ -1,0 +1,31 @@
+.loginForm{
+    background-color: yellow;
+    padding: 5em;
+    margin: 0.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: 50%;
+    -webkit-box-shadow: 0 0 10px #525050;
+    border-radius: 5px;
+    padding-top: 7em;
+    box-shadow: 10px #525050;
+}
+
+body{
+    background-color: rgb(187, 186, 186);
+}
+
+
+#login{
+    background-color: rgb(108, 206, 73);
+    border: 1px solid;
+}
+
+#error{
+    
+    color: red;
+}
